@@ -94,18 +94,15 @@ from math import sqrt
 sdtDeviation = sqrt(var)
 print(f"Standard Deviation = {sdtDeviation:.3f}")
 ```
-
-# Output 
-
 ### Refer to the following images to view the output of the program
-![alt text](<Output Images/image.png>)
-![alt text](<Output Images/image-1.png>) 
-![alt text](<Output Images/image-2.png>) 
-![alt text](<Output Images/image-3.png>) 
-![alt text](<Output Images/image-4.png>) 
 
 
 # Output : 
+<img src="https://img.sanishtech.com/u/db15176f5322d17ad10461cac310e350.png" alt="image" width="490" height="170" loading="lazy" style="max-width:100%;height:auto;">
+<img src="https://img.sanishtech.com/u/c6817ad984e73b272658769a547b9a57.png" alt="image-1" width="490" height="256" loading="lazy" style="max-width:100%;height:auto;">
+<img src="https://img.sanishtech.com/u/2b873f52b736d81175d89633a031d2ad.png" alt="image-2" width="491" height="175" loading="lazy" style="max-width:100%;height:auto;">
+<img src="https://img.sanishtech.com/u/012e6bdaf940aedb796a71a16b635f41.png" alt="image-3" width="490" height="201" loading="lazy" style="max-width:100%;height:auto;">
+<img src="https://img.sanishtech.com/u/f75c2b9e629aa51451c562e7875a1693.png" alt="image-4" width="487" height="164" loading="lazy" style="max-width:100%;height:auto;">
 
 # Results :
 The mean and variance of arrivals of objects from feeder using probability distribution are calculated.
