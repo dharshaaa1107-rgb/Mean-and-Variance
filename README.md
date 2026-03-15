@@ -48,7 +48,61 @@ It shows the distance of a random variable from its mean. It is calcualted as
 ![image](https://user-images.githubusercontent.com/103921593/229993174-5b67e57e-3e01-4ac4-9f83-410a932b22bf.png)
 
 # Program :
+#### DEVELOPED BY : **SUDHARSAN S**<BR>Reg No : **212224040334**
 
+### Declaring the value of n
+
+```python
+import numpy as np
+n = int(input("Enter the value of n : "))
+print("Value of n =", n)
+```
+
+### Getting the inputs
+
+```python
+InputVal = {}
+for i in range(1, n+1):
+    val = int(input(f"Enter the value no {i} : "))
+    try:
+        InputVal[val] += 1
+    except:
+        InputVal[val] = 1
+print(f"{i} Values Collected Successfully")
+```
+### Finding Mean
+
+``` python
+mean = 0
+for key, val in InputVal.items():
+    mean += key*(val/n)
+print(f"Mean = {mean:.3f}")
+```
+### Finding Variance
+
+```python 
+ex2 = 0
+for key, val in InputVal.items():
+    ex2 += ((key**2) * val/n)
+var = ex2 - mean**2
+print(f"Variance : {var:.3f}")
+```
+### Finding Standard Deviation
+
+```python
+from math import sqrt
+sdtDeviation = sqrt(var)
+print(f"Standard Deviation = {sdtDeviation:.3f}")
+```
+
+# Output 
+
+### Refer to the following images to view the output of the program
+![alt text](<Output Images/image.png>)
+![alt text](<Output Images/image-1.png>) 
+![alt text](<Output Images/image-2.png>) 
+![alt text](<Output Images/image-3.png>) 
+![alt text](<Output Images/image-4.png>) 
 
 
 # Output : 
